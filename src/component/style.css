@@ -20,6 +20,7 @@
 .review-container {
   background-color: hsla(82, 45%, 85%, 0.5);
   padding: 5rem;
+  height: 40rem;
 }
 .card-review {
   padding: 48px 30px !important;
@@ -41,11 +42,11 @@
   display: flex !important;
 }
 .image-women {
-  height: 32.5rem;
-  width: 17rem;
+  height: 35rem;
+  width: 19rem;
   position: absolute;
-  left: 4rem;
-  padding-top: 0rem;
+  left: 16rem;
+  padding-top: 3rem;
 }
 .card-carosel {
   width: 18rem;
