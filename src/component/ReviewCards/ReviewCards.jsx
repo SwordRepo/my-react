@@ -2,9 +2,10 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img from "./images/star.png";
+import logo from "./images/logo.png";
 import woman from "./images/person.avif";
-
-function DemoTwo() {
+import "./style.css";
+export default function ReviewCards() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -148,11 +149,12 @@ function DemoTwo() {
                 {/* Add two more divs for the remaining two cards */}
               </Carousel>
             </div>
+            <div>
+              <img src={logo} alt="" className="image-logo text-center" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-export default DemoTwo;

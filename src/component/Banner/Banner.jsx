@@ -3,7 +3,7 @@ import img from "./images/image.jpg";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Banner() {
+export default function Banner() {
   return (
     <div className="container-fluid position-relative p-0">
       {/* Image taking full width */}
@@ -29,5 +29,3 @@ function Banner() {
     </div>
   );
 }
-
-export default Banner;

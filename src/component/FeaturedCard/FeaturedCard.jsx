@@ -1,8 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img from "./images/img.jpg";
+import img from "./Images/img.jpg";
+import "./style.css";
 
-function FeaturedCard() {
+export default function FeaturedCard() {
   return (
     <div className="container-fluid featured-card">
       <div className="container">
@@ -58,5 +59,3 @@ function FeaturedCard() {
     </div>
   );
 }
-
-export default FeaturedCard;
