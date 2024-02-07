@@ -1,3 +1,6 @@
+.featured-card {
+  background-color: rgb(29, 138, 203);
+}
 .text_img {
   left: 10rem;
 }
@@ -16,6 +19,7 @@
 }
 .review-container {
   background-color: hsla(82, 45%, 85%, 0.5);
+  padding: 5rem;
 }
 .card-review {
   padding: 48px 30px !important;
@@ -37,12 +41,31 @@
   display: flex !important;
 }
 .image-women {
-  height: 29rem;
-  width: 16rem;
+  height: 32.5rem;
+  width: 17rem;
   position: absolute;
-  left: 5rem;
-  padding-top: 4rem;
+  left: 4rem;
+  padding-top: 0rem;
 }
 .card-carosel {
   width: 18rem;
+}
+
+button.rec-dot {
+  display: none;
+}
+
+.rec.rec-arrow {
+  background-color: transparent !important;
+  color: black !important;
+  border: none;
+}
+
+.rec.rec-arrow:hover {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.rec.rec-arrow:disabled {
+  color: gray !important;
 }

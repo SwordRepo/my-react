@@ -3,7 +3,7 @@ import "./App.css";
 import "./index.css";
 import Banner from "./component/Banner";
 import FeaturedCard from "./component/FeaturedCard";
-import ReviewCard from "./component/ReviewCard";
+
 import DemoTwo from "./component/Demo";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Banner />
       <FeaturedCard />
-      <ReviewCard />
+
       <DemoTwo />
     </div>
   );

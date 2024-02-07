@@ -4,7 +4,7 @@ import img from "./images/img.jpg";
 
 function FeaturedCard() {
   return (
-    <div className="container-fluid bg-dark">
+    <div className="container-fluid featured-card">
       <div className="container">
         <div className="row card-row">
           <h2 className="fw-bold text-white text-center mb-4">Featured</h2>

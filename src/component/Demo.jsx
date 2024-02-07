@@ -21,7 +21,7 @@ function DemoTwo() {
       <div className="container-fluid review-container">
         <img src={woman} alt="" className="image-women" />
         <div className="bd-example container">
-          <Carousel breakPoints={breakPoints}>
+          <Carousel breakPoints={breakPoints} itemsToShow={1} infiniteLoop>
             <div class="card col-3 p-0 mt-4 mx-4 card-carosel">
               <div class="card-body card-review">
                 <h5 class="card-title mb-4 fw-bold fs-3">Steve</h5>
