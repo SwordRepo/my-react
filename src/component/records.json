@@ -1,0 +1,31 @@
+[
+  {
+    " id": 1,
+    "BannerText": "Providing Everyday Canadians"
+  },
+  {
+    " id": 2,
+    "BannerText": "a Path to a Better Tomorrow, Today."
+  },
+  {
+    "id": 3,
+    "cardText": "Get a 2% lower rate with a co-applicant"
+  },
+  {
+    "id": 4,
+    "cardText": "Lower your rate and get approved for more money when you borrow together."
+  },
+  {
+    "id": 5,
+    "cardBtn": "Go somewhere"
+  },
+  {
+    "id": 5,
+    "cardHead": "Featured"
+  },
+  {
+    "id": 6,
+    "reviewCard": "  I found that the people are very helpful and understanding, I would definitely recommend them.",
+    "name": "Steve"
+  }
+]

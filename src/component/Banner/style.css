@@ -4,4 +4,8 @@
 }
 .text_img {
   left: 10rem;
+  color: #005da5 !important;
+}
+.text-loan {
+  color: #555659;
 }
