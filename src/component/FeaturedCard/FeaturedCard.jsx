@@ -15,7 +15,7 @@ export default function FeaturedCard() {
             {records.map((r) => r.cardHead)}
           </h2>
           {Array.from({ length: cardCount }, (_, index) => (
-            <div className="col-4">
+            <div className="col-4 col-lg-4 col-md-4 col-sm-12 col-12">
               <Card key={index} />
             </div>
           ))}
