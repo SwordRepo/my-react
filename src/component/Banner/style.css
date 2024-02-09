@@ -3,9 +3,15 @@
   width: 26rem;
 }
 .text_img {
-  left: 10rem;
-  color: #005da5 !important;
+  left: 18rem;
+  top: 2rem;
+  margin-top: 2rem;
+  color: #005da5;
 }
 .text-loan {
   color: #555659;
+}
+.ban-text {
+  font-weight: 600;
+  margin-left: 8px;
 }

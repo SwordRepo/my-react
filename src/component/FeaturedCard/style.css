@@ -6,7 +6,8 @@
   width: 22rem !important;
 }
 .card-row {
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .card-body-text {
   margin-bottom: 3rem;

@@ -7,7 +7,7 @@ import records from "../records.json";
 export default function Card() {
   return (
     <div>
-      <div class="card col-3 p-0 mt-4 mx-4 card-prop">
+      <div class="card col-3 col-md-2 p-0 mt-4  card-prop">
         <img src={img} class="card-img-top" alt="..." />
         <div class="card-body text-center">
           <h5 class="card-title mb-4 fw-bold fs-3">
