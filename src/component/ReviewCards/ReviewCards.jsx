@@ -7,7 +7,9 @@ import woman from "./images/person.avif";
 import "./style.css";
 
 import Card from "./Card";
-export default function ReviewCards() {
+export default function ReviewCards(props) {
+console.log(props,'hi')
+const {heading,img,reviews}=props.data
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -27,7 +29,7 @@ export default function ReviewCards() {
         fontWeight: "600",
       }}
     >
-      {/* Your custom icon or image */}
+     
       {type === "PREV" ? "<" : ">"}
     </div>
   );
@@ -41,12 +43,12 @@ export default function ReviewCards() {
               <img src={woman} alt="" className="image-women" />
             </div>
             <div className="col-10">
-              <Carousel itemsToShow={3} renderArrow={renderCustomArrow}>
-                {Array.from({ length: cardCount }, (_, index) => (
-                  <div className="rate-img">
-                    <Card />
-                  </div>
-                ))}
+              <Carousel  breakPoints={breakPoints} renderArrow={renderCustomArrow}>
+                {
+                  reviews.map((i)=>{
+                    return <Card data={i} />
+                  })
+                }
               </Carousel>
             </div>
             <div>

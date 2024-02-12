@@ -4,14 +4,14 @@ import "./index.css";
 import Banner from "./component/Banner";
 import FeaturedCard from "./component/FeaturedCard";
 import ReviewCards from "./component/ReviewCards";
-
+import { reviewData } from "./component/ReviewCards/data";
 function App() {
   return (
     <div className="App">
       <Banner />
       <FeaturedCard />
 
-      <ReviewCards />
+      <ReviewCards data={reviewData} />
     </div>
   );
 }

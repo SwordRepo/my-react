@@ -1,36 +1,26 @@
 .review-container {
   background-color: hsla(82, 45%, 85%, 0.5);
-  padding: 5rem;
+  padding-top: 5rem;
   height: 40rem;
 }
 .card-review {
-  padding: 48px 30px !important;
-  height: 20rem;
+  padding: 55px 35px 70px !important;
+  height: 22rem;
+  /* width: 21rem; */
 }
-/* .rating-star {
-  margin-bottom: 20px;
-} */
+
 .image-rating {
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
   margin-right: 8px;
 }
-/* .image-rating1 {
-  height: 15rem;
-  width: 18rem !important;
-} */
-/* .carousal-data {
-  display: flex !important;
-} */
+
 .image-women {
   height: 35rem;
   width: 19rem;
   position: absolute;
   left: 16rem;
   padding-top: 3rem;
-}
-.card-carosel {
-  width: 5rem;
 }
 
 button.rec-dot {
@@ -58,4 +48,22 @@ button.rec-dot {
 
 .card-body-text {
   color: #333;
+}
+@media only screen and (min-width: 1440px) {
+ .image-women {
+  height: 35rem;
+  width: 19rem;
+  position: absolute;
+  left: 4rem;
+  padding-top: 3rem;
+}
+}
+@media only screen and (min-width: 375px) {
+ .image-women {
+  height: 35rem;
+  width: 19rem;
+  position: absolute;
+  left: 4rem;
+  padding-top: 3rem;
+}
 }

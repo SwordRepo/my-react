@@ -34,12 +34,12 @@ export default function Banner() {
         <p>Applying won’t affect your credit score</p>
       </div> */}
       <div className="container position-absolute top-0 w-25 text-start text_img">
-        <span className="fs-lg-1 fs-md-3">
+        <span className="fs-2">
           {records.map((r) => (
             <span key={r.id}>{r.BannerText}</span>
           ))}
         </span>
-        <span className="ban-text fs-lg-1 fs-md-3">
+        <span className="ban-text fs-2">
           {records.map((r) => (
             <span key={r.id}>{r.BannerText1}</span>
           ))}
