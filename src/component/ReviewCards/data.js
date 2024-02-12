@@ -1,4 +1,4 @@
-export const reviewData = {
+export const easyfinancialData = {
   navBar: {
     logo: "",
     menus: [
