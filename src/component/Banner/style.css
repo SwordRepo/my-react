@@ -1,11 +1,8 @@
-.img-lines {
-  float: left;
-  width: 26rem;
+.img-banner {
+  width: 100%;
 }
-.text_img {
-  left: 18rem;
-  top: 2rem;
-  margin-top: 2rem;
+.text_img,
+.banner-btn {
   color: #005da5;
 }
 .text-loan {
@@ -14,4 +11,15 @@
 .ban-text {
   font-weight: 600;
   margin-left: 8px;
+}
+.bannerHeaderline {
+  margin-left: 4px;
+}
+.banner-footer-text {
+  color: #8f8f8f;
+}
+.banner-btn {
+  background-color: #005da5;
+  padding: 10px 15px;
+  color: #fff; /* Button text color */
 }

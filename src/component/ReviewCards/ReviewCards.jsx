@@ -8,11 +8,11 @@ import "./style.css";
 
 import Card from "./Card";
 export default function ReviewCards(props) {
-console.log(props,'hi')
-const {heading,img,reviews}=props.data
+  console.log(props, "hi");
+  const { heading, img, reviews } = props.data;
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2 },
+    { width: 550, itemsToShow: 1 },
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 3 },
   ];
@@ -29,7 +29,6 @@ const {heading,img,reviews}=props.data
         fontWeight: "600",
       }}
     >
-     
       {type === "PREV" ? "<" : ">"}
     </div>
   );
@@ -38,21 +37,22 @@ const {heading,img,reviews}=props.data
     <div>
       <div className="container-fluid review-container">
         <div className=" container">
-          <div className="row">
-            <div className="col-2">
+          <div className=" row">
+            <div className="col-sm-12 col-md-3 col-lg-3  ">
               <img src={woman} alt="" className="image-women" />
             </div>
-            <div className="col-10">
-              <Carousel  breakPoints={breakPoints} renderArrow={renderCustomArrow}>
-                {
-                  reviews.map((i)=>{
-                    return <Card data={i} />
-                  })
-                }
+            <div className="col-sm-12 col-md-8 col-lg-8 ">
+              <Carousel
+                breakPoints={breakPoints}
+                renderArrow={renderCustomArrow}
+              >
+                {reviews.map((i) => {
+                  return <Card data={i} />;
+                })}
               </Carousel>
-            </div>
-            <div>
-              <img src={logo} alt="" className="image-logo text-center" />
+              <div className="text-center">
+                <img src={logo} alt="" className="text-center" />
+              </div>
             </div>
           </div>
         </div>

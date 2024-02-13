@@ -1,6 +1,6 @@
 export const easyfinancialData = {
   navBar: {
-    logo: "",
+    logo: "component/Banner/images/logo.png",
     menus: [
       {
         menu: "LOANS",
@@ -32,7 +32,7 @@ export const easyfinancialData = {
         ],
       },
       {
-        menu: "Financial Tips",
+        menu: "FINANCIAL TIPS",
         subMenus: [
           {
             submenu: "Articles",
@@ -75,8 +75,8 @@ export const easyfinancialData = {
   },
   banner: {
     img: "",
-    bannerHeader:
-      "Providing Everyday Canadians a Path to a Better Tomorrow, Today.",
+    bannerHeader: "Providing Everyday Canadians a Path to",
+    bannerHeaderline: "a Better Tomorrow, Today",
     bannerSubHeader: "Loans up to $100,000",
     bannerBtn: "GET A LOAN",
     bannerText: "Applying won’t affect your credit score",
@@ -115,22 +115,26 @@ export const easyfinancialData = {
       {
         name: "test1",
         rating: 3,
-        description: "Hello world",
+        description:
+          "I found that the people are very helpful and understanding, I would definitely recommend them. ",
       },
       {
         name: "test2",
         rating: 4,
-        description: "Hello world",
+        description:
+          "I would recommend dealing with them to help you get back on stable financial ground. Thanks for all your help.",
       },
       {
         name: "test3",
         rating: 2,
-        description: "Hello world",
+        description:
+          "easyfinancial makes building credit back up literally so easy. Joel was extremely helpful and made it all so simple and straight forward to set up my loan, very happy! Thanks again!",
       },
       {
         name: "test4",
         rating: 5,
-        description: "Hello world",
+        description:
+          "Jolyn the financial advisor here at Grande Praire is very helpful. She knows what she is doing. Witty, friendly and approachable person. Keep up the good work!",
       },
     ],
   },

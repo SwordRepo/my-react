@@ -5,20 +5,21 @@ import "./style.css";
 import Card from "./Card";
 import records from "../records.json";
 
-export default function FeaturedCard() {
-  const cardCount = 3;
+export default function FeaturedCard(props) {
+  const { name, card } = props.data;
+
   return (
     <div className="container-fluid featured-card">
-      <div className="container">
-        <div className="row card-row">
-          <h2 className="fw-bold text-white text-center mb-4">
-            {records.map((r) => r.cardHead)}
-          </h2>
-          {Array.from({ length: cardCount }, (_, index) => (
-            <div className="col-4 col-lg-4 col-md-4 col-sm-12 col-12">
-              <Card key={index} />
-            </div>
-          ))}
+      <div className="container p-4">
+        <h2 className="fw-bold text-white text-center mb-4">{name}</h2>
+        <div className="row">
+          {card.map((i) => {
+            return (
+              <div className="col-md-4 mt-4">
+                <Card data={i} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

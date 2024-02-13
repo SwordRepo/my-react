@@ -1,14 +1,6 @@
 .featured-card {
   background-color: rgb(29, 138, 203);
 }
-
-.card-prop {
-  width: 22rem !important;
-}
-.card-row {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.card-body-text {
-  margin-bottom: 3rem;
+.feature-card-text {
+  color: #005da5;
 }

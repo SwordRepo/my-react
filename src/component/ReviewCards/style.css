@@ -1,14 +1,12 @@
 .review-container {
   background-color: hsla(82, 45%, 85%, 0.5);
-  padding-top: 5rem;
-  height: 40rem;
 }
 .card-review {
-  padding: 55px 35px 70px !important;
-  height: 22rem;
-  /* width: 21rem; */
+  height: auto;
 }
-
+.review-card-head {
+  height: 100%;
+}
 .image-rating {
   height: 24px;
   width: 24px;
@@ -16,11 +14,7 @@
 }
 
 .image-women {
-  height: 35rem;
-  width: 19rem;
-  position: absolute;
-  left: 16rem;
-  padding-top: 3rem;
+  max-width: 100%;
 }
 
 button.rec-dot {
@@ -41,29 +35,30 @@ button.rec-dot {
 .rec.rec-arrow:disabled {
   color: gray !important;
 }
-.image-logo {
-  margin-left: 16rem;
-  margin-top: 2rem;
-}
 
 .card-body-text {
   color: #333;
 }
-@media only screen and (min-width: 1440px) {
- .image-women {
-  height: 35rem;
-  width: 19rem;
-  position: absolute;
-  left: 4rem;
-  padding-top: 3rem;
+@media only screen and (min-width: 578px) {
+  .review-container {
+    padding: 65px;
+  }
+  .sm-device {
+    display: none;
+  }
+  .all-device {
+    display: block;
+  }
 }
-}
-@media only screen and (min-width: 375px) {
- .image-women {
-  height: 35rem;
-  width: 19rem;
-  position: absolute;
-  left: 4rem;
-  padding-top: 3rem;
-}
+
+@media only screen and (max-width: 576px) {
+  .sm-device {
+    display: block;
+  }
+  .all-device {
+    display: none;
+  }
+  .review-container {
+    padding: 24px 24px 0 24px;
+  }
 }
