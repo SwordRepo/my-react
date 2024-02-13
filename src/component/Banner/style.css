@@ -5,8 +5,15 @@
 .banner-btn {
   color: #005da5;
 }
+.text_img{
+  padding-top: 48px;
+}
 .text-loan {
   color: #555659;
+}
+.text-dec{
+  float: left;
+  width: 600px;
 }
 .ban-text {
   font-weight: 600;
@@ -22,4 +29,16 @@
   background-color: #005da5;
   padding: 10px 15px;
   color: #fff; /* Button text color */
+  width: 25%;
+}
+.hero-banner {
+    
+    background-size: cover!important;
+    display: flex;
+    flex-direction: column;
+   margin-top: auto;
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    font-size: medium;
 }
