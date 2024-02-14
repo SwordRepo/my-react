@@ -5,7 +5,7 @@ import "./style.css";
 import Button from "../button/Button";
 export default function Card(props) {
   return (
-    <div class="col-4 d-flex pb-3">
+    <div class="col-sm-12 col-md-4 col-lg-4 d-flex pb-3">
       <div class="card">
         <img src={img} class="card-img-top" alt="..." />
         <div class="card-body text-center">
