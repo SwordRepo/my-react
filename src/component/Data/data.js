@@ -1,6 +1,7 @@
+import logo from "../NavBar/images/logo.png";
 export const easyfinancialData = {
   navBar: {
-    logo: "component/Banner/images/logo.png",
+    logo: logo,
     menus: [
       {
         menu: "LOANS",

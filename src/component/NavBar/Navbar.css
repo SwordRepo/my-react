@@ -1,10 +1,10 @@
 /* Navbar.css */
 
-.navbar {
+.navbar-content {
   padding: 10px;
-  color: #333; /* Updated text color for better readability */
+  color: rgb(85, 86, 89); /* Updated text color for better readability */
   font-size: 18px;
-  font-weight: 700;
+
   line-height: 24px;
 }
 
@@ -44,13 +44,14 @@
 .sub-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 5px); /* Position the submenu below the parent menu item */
+  top: calc(100% + 40px); /* Position the submenu below the parent menu item */
   left: 0;
   background-color: #f8f9fa; /* Submenu background color */
   list-style: none;
   padding: 10px;
-  width: 200px; /* Adjust width as needed */
+  width: 335px; /* Adjust width as needed */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
 }
 
 .menu-item:hover .sub-menu {
@@ -73,6 +74,36 @@
   padding: 10px 15px;
   color: #fff; /* Button text color */
 }
-.nav-logo{
-  width: -webkit-fill-available !important;
+.nav-logo {
+  height: 63px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile menu styles */
+@media only screen and (max-width: 768px) {
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .menu-item {
+    margin: 10px 0;
+  }
+
+  .sub-menu {
+    position: static;
+    width: 100%;
+  }
+
+  .sub-menu-item {
+    margin: 8px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
 }

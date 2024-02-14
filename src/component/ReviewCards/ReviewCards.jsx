@@ -24,7 +24,7 @@ export default function ReviewCards(props) {
       className={`custom-${type}-icon`}
       style={{
         fontSize: "2rem",
-        marginTop: "13rem",
+        marginTop: "8rem",
         color: "#005DA5",
         fontWeight: "600",
       }}
@@ -46,9 +46,11 @@ export default function ReviewCards(props) {
                 breakPoints={breakPoints}
                 renderArrow={renderCustomArrow}
               >
+                {/* <div className="row"> */}
                 {reviews.map((i) => {
                   return <Card data={i} />;
                 })}
+                {/* </div> */}
               </Carousel>
               <div className="text-center">
                 <img src={logo} alt="" className="text-center" />

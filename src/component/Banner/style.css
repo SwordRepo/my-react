@@ -1,3 +1,6 @@
+.img-container {
+  position: relative;
+}
 .img-banner {
   width: 100%;
 }
@@ -5,15 +8,16 @@
 .banner-btn {
   color: #005da5;
 }
-.text_img{
+.text_img {
   padding-top: 48px;
 }
+
 .text-loan {
   color: #555659;
 }
-.text-dec{
+.text-dec {
   float: left;
-  width: 600px;
+  width: 455px;
 }
 .ban-text {
   font-weight: 600;
@@ -26,19 +30,50 @@
   color: #8f8f8f;
 }
 .banner-btn {
-  background-color: #005da5;
+  background-color: #005da5 !important;
   padding: 10px 15px;
   color: #fff; /* Button text color */
-  width: 25%;
+  width: 30%;
 }
 .hero-banner {
-    
-    background-size: cover!important;
-    display: flex;
-    flex-direction: column;
-   margin-top: auto;
+  position: absolute;
+  top: 10%;
+  max-width: 100%;
+}
+.banner-sub-header {
+  font-size: 32px;
+}
+/* Extra Small Devices (portrait phones) */
+@media only screen and (max-width: 576px) {
+  .text_img {
+    font-size: 32px;
+    padding: 0;
+  }
+  .hero-banner {
     position: absolute;
     top: 0;
     max-width: 100%;
-    font-size: medium;
+  }
+  .text-dec {
+    float: left;
+    width: auto;
+  }
+  .banner-sub-header {
+    font-size: 16px;
+  }
+}
+
+/* Small Devices (landscape phones) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  /* Your styles for small devices go here */
+}
+
+/* Medium Devices (tablets) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* Your styles for medium devices go here */
+}
+
+/* Large Devices (desktops) */
+@media only screen and (min-width: 993px) {
+  /* Your styles for large devices go here */
 }

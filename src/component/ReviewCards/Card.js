@@ -6,7 +6,8 @@ export default function Card(props) {
   console.log(props, "data");
   // const cardCount = 5;
   return (
-    <div class="card mx-2 mt-5 review-card-head">
+    // <div class="col-4 d-flex pb-3">
+    <div class="card mx-2 mt-5 review-card-head ">
       <div class="card-body card-review ">
         <p class="card-title mb-4 fw-bold ">{props.data.name}</p>
         <div className="rating-star d-flex ">
@@ -20,5 +21,6 @@ export default function Card(props) {
         </p>
       </div>
     </div>
+    // </div>
   );
 }
