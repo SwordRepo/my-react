@@ -14,7 +14,7 @@ function App() {
       <FeaturedCard data={easyfinancialData.featuredCard} />
 
       <ReviewCards data={easyfinancialData.review} />
-      <Footer data={easyfinancialData.navBar}/>
+      <Footer data={easyfinancialData.footer} />
     </div>
   );
 }

@@ -44,7 +44,7 @@
 .sub-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 40px); /* Position the submenu below the parent menu item */
+  top: calc(100% + 5px); /* Position the submenu below the parent menu item */
   left: 0;
   background-color: #f8f9fa; /* Submenu background color */
   list-style: none;
@@ -87,7 +87,7 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     padding: 0;
   }
 

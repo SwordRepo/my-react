@@ -45,6 +45,9 @@
 }
 /* Extra Small Devices (portrait phones) */
 @media only screen and (max-width: 576px) {
+  .img-banner {
+    height: 50%;
+  }
   .text_img {
     font-size: 32px;
     padding: 0;
@@ -65,12 +68,28 @@
 
 /* Small Devices (landscape phones) */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-  /* Your styles for small devices go here */
+  .hero-banner {
+    top: 5%;
+  }
+  .text_img {
+    padding: 0;
+  }
+  .banner-btn {
+    margin: 0;
+  }
 }
 
 /* Medium Devices (tablets) */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-  /* Your styles for medium devices go here */
+  .hero-banner {
+    top: 5%;
+  }
+  .text_img {
+    padding: 0;
+  }
+  .banner-btn {
+    margin: 0;
+  }
 }
 
 /* Large Devices (desktops) */

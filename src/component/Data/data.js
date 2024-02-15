@@ -140,11 +140,90 @@ export const easyfinancialData = {
     ],
   },
   footer: {
-    link: "STAY CONNECTED",
-    logo1: "",
-    logo2: "",
-    logoContent: "Download the FREE goeasy Connect™ app",
-    logo3: "",
-    logo4: "",
+    footerContent: [
+      {
+        menu: "CONTACT US",
+        subMenus: [
+          {
+            submenu: "1-888-502-3279",
+          },
+          {
+            submenu: "E-mail Us",
+          },
+          {
+            submenu: "Find a Branch",
+          },
+        ],
+      },
+      {
+        menu: "LOANS",
+        subMenus: [
+          {
+            submenu: "Personal Loans",
+          },
+          {
+            submenu: "Home Equity Loans",
+          },
+          {
+            submenu: "Auto Loans",
+          },
+          {
+            submenu: "Point-of-Sale Financing",
+          },
+          {
+            submenu: "Value-Added Services",
+          },
+          {
+            submenu: "Small Business Financing",
+          },
+          {
+            submenu: "Bad Credit Loans",
+          },
+          {
+            submenu: "Installment Loans",
+          },
+        ],
+      },
+      {
+        menu: "ABOUT US",
+        subMenus: [
+          {
+            submenu: "The easyfinancial Difference",
+          },
+          {
+            submenu: "In the Comunity",
+          },
+          {
+            submenu: "Careers",
+          },
+        ],
+      },
+      {
+        menu: "HELP",
+        subMenus: [
+          {
+            submenu: "FAQs",
+          },
+          {
+            submenu: "Contact Us",
+          },
+          {
+            submenu: "COVID-19 Updates",
+          },
+        ],
+      },
+    ],
+    footerIcons: {
+      menu: "STAY CONNECTED",
+      subMenus: [
+        {
+          logo1: "",
+          logo2: "",
+          logoContent: "Download the FREE goeasy Connect™ app",
+          logo3: "",
+          logo4: "",
+        },
+      ],
+    },
   },
 };
