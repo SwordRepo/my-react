@@ -11,9 +11,9 @@
   margin-right: 8px;
 }
 
-.image-women {
+/* .image-women {
   max-width: 100%;
-}
+} */
 
 button.rec-dot {
   display: none;
@@ -36,6 +36,11 @@ button.rec-dot {
 
 .card-body-text {
   color: #333;
+}
+@media only screen and (min-width: 992px) {
+  .carousal-card {
+    margin-left: 5rem;
+  }
 }
 @media only screen and (min-width: 578px) {
   .review-container {

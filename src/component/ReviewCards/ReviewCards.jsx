@@ -41,7 +41,8 @@ export default function ReviewCards(props) {
             <div className="col-sm-12 col-md-3 col-lg-3  ">
               <img src={woman} alt="" className="image-women" />
             </div>
-            <div className="col-sm-12 col-md-8 col-lg-8 ">
+
+            <div className="col-sm-12 col-md-9 col-lg-9  ">
               <Carousel
                 breakPoints={breakPoints}
                 renderArrow={renderCustomArrow}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 function BasicExample(props) {
   const { menus, btn, logo } = props.data;
@@ -15,7 +14,7 @@ function BasicExample(props) {
     setActiveMenu((prevMenu) => (prevMenu === menu ? null : menu));
   };
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-white">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand href="#home">

@@ -27,10 +27,15 @@ export default function Banner(props) {
           </div>
 
           <p className=" text-primary banner-sub-header">{bannerSubHeader}</p>
+          <div className="btn-banner">
+            <a
+              href="#"
+              className="btn btn-primary  banner-btn fw-bold my-lg-4 "
+            >
+              {bannerBtn}
+            </a>
+          </div>
 
-          <a href="#" className="btn btn-primary  banner-btn fw-bold my-lg-4 ">
-            {bannerBtn}
-          </a>
           <p className="banner-footer-text">{bannerText}</p>
         </div>
       </div>

@@ -5,6 +5,7 @@ import { easyfinancialData } from "./component/Data/data";
 import Navbar from "./component/NavBar";
 import BasicExample from "./component/NavBar/BasicExample";
 import Footer from "./component/Footer";
+import Accordian from "./component/FooterAccordian/Accordian";
 function App() {
   return (
     <div className="App">
@@ -12,9 +13,9 @@ function App() {
       <BasicExample data={easyfinancialData.navBar} />
       <Banner data={easyfinancialData.banner} />
       <FeaturedCard data={easyfinancialData.featuredCard} />
-
       <ReviewCards data={easyfinancialData.review} />
       <Footer data={easyfinancialData.footer} />
+      <Accordian data={easyfinancialData.footer} />
     </div>
   );
 }

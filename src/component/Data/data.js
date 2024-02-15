@@ -1,4 +1,11 @@
 import logo from "../NavBar/images/logo.png";
+import facebook from "./images/facebook.png";
+import instagram from "./images/instagram.png";
+import goeasy from "./images/goeasy.jpg";
+import playStore from "./images/app.png";
+import bannerBG from "./images/bg.webp";
+
+import googlePlay from "./images/googlePlay.png";
 export const easyfinancialData = {
   navBar: {
     logo: logo,
@@ -75,7 +82,7 @@ export const easyfinancialData = {
     btn: "APPLY NOW",
   },
   banner: {
-    img: "",
+    img: bannerBG,
     bannerHeader: "Providing Everyday Canadians a Path to",
     bannerHeaderline: "a Better Tomorrow, Today",
     bannerSubHeader: "Loans up to $100,000",
@@ -140,6 +147,13 @@ export const easyfinancialData = {
     ],
   },
   footer: {
+    heading: "STAY CONNECTED",
+    facebookLogo: facebook,
+    instagramLogo: instagram,
+    goeasyLogo: goeasy,
+    appleLogo: playStore,
+    googlePlay: googlePlay,
+    content: "Download the FREE goeasy Connect™ app",
     footerContent: [
       {
         menu: "CONTACT US",
@@ -200,6 +214,7 @@ export const easyfinancialData = {
       },
       {
         menu: "HELP",
+
         subMenus: [
           {
             submenu: "FAQs",
@@ -213,17 +228,5 @@ export const easyfinancialData = {
         ],
       },
     ],
-    footerIcons: {
-      menu: "STAY CONNECTED",
-      subMenus: [
-        {
-          logo1: "",
-          logo2: "",
-          logoContent: "Download the FREE goeasy Connect™ app",
-          logo3: "",
-          logo4: "",
-        },
-      ],
-    },
   },
 };

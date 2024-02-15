@@ -1,0 +1,15 @@
+.li-menu,
+.li-menu1 {
+  list-style: none;
+  color: #005da5;
+  font-size: 14px;
+  font-weight: 600;
+}
+.li-menu1 {
+  color: #555659;
+}
+@media only screen and (min-width: 576px) {
+  .accordian-componnet {
+    display: none;
+  }
+}
