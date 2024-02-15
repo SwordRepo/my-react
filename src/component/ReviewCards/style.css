@@ -41,8 +41,14 @@ button.rec-dot {
   .carousal-card {
     margin-left: 5rem;
   }
+  .image-women-sm {
+    display: none;
+  }
+  .image-women {
+    display: block;
+  }
 }
-@media only screen and (min-width: 578px) {
+@media only screen and (min-width: 578px) and (max-width: 991px) {
   .review-container {
     padding-top: 65px;
   }
@@ -51,6 +57,9 @@ button.rec-dot {
   }
   .all-device {
     display: block;
+  }
+  .image-women {
+    display: none;
   }
 }
 
@@ -63,5 +72,8 @@ button.rec-dot {
   }
   .review-container {
     padding: 24px 24px 0 24px;
+  }
+  .image-women {
+    display: none;
   }
 }

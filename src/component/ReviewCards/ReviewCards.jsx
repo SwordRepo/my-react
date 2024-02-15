@@ -57,6 +57,9 @@ export default function ReviewCards(props) {
                 <img src={logo} alt="" className="text-center" />
               </div>
             </div>
+            <div className="col-sm-12 col-md-3 col-lg-3  ">
+              <img src={woman} alt="" className="image-women-sm" />
+            </div>
           </div>
         </div>
       </div>
