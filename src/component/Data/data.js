@@ -229,4 +229,37 @@ export const easyfinancialData = {
       },
     ],
   },
+
+  personalLoan: {
+    loanData: [
+      {
+        loanName: "Loan details",
+        content: "Not sure which loan to apply for?",
+        linkContent:
+          "See all of our loans to find the one that’s right for you.",
+        terms: [
+          { term: "Amounts from", value: "$500 - $20,000" },
+          { term: "Rates starting from", value: "29.99%" },
+          { term: "Terms from", value: "9-84 months" },
+
+          // { value: "$500 - $20,000" },
+          // { value: "29.99%" },
+          // { value: "9-84 months" },
+        ],
+      },
+      {
+        name: "Most commonly used for:",
+        logos: {
+          logo: "",
+          logo: "",
+          logo: "",
+        },
+        contents: {
+          content: "Bill Payments",
+          content: "Debt Consolidation",
+          content: "Home & Auto Repairs",
+        },
+      },
+    ],
+  },
 };

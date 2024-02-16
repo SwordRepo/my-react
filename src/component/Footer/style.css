@@ -27,6 +27,11 @@
   font-size: 18px;
   font-weight: 600;
 }
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
 @media only screen and (max-width: 576px) {
   .footerLink {
     display: none;

@@ -1,0 +1,36 @@
+.loan-container {
+  background-color: #e3edf4;
+  padding: 50px 0 0;
+}
+.left-container-border {
+  border-right: 1px solid #005da5;
+}
+.left-container {
+  padding-right: 120px;
+}
+.loan-head,
+.term-value {
+  color: #005da5;
+  font-weight: 700;
+}
+.term,
+.term-value {
+  font-size: 26px;
+}
+.term {
+  color: #333;
+  font-weight: 400;
+}
+.blue-line {
+  color: #005da5;
+}
+.term-line {
+  color: #005da5;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin-left: 10px;
+}
+.loan-content {
+  margin: 35px 0 0;
+}

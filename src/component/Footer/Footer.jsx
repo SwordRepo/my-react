@@ -14,7 +14,7 @@ export default function Footer(props) {
   } = props.data;
   console.log(props, "props");
   return (
-    <div className="container-fluid foot-cont">
+    <div className="container-fluid foot-cont footer--pin">
       <div className="container paddedContainer">
         <div className="row">
           <div className="col-md-3 col-lg-3 col-sm-12">
