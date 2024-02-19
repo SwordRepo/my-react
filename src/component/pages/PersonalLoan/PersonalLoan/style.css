@@ -8,6 +8,10 @@
 .left-container {
   padding-right: 120px;
 }
+.loan-head {
+  font-size: 50px;
+  line-height: 60px;
+}
 .loan-head,
 .term-value {
   color: #005da5;
@@ -21,7 +25,8 @@
   color: #333;
   font-weight: 400;
 }
-.blue-line {
+.blue-line,
+.link-loan {
   color: #005da5;
 }
 .term-line {
@@ -29,8 +34,25 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
-  margin-left: 10px;
 }
 .loan-content {
   margin: 35px 0 0;
+}
+.loan-logo-content {
+  color: #005da5;
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.col-loan-right {
+  padding: 0 0 60px 75px;
+}
+.loan-sub-head {
+  color: #005da5;
+  font-size: 34px;
+  font-weight: 700;
+}
+.linkContent {
+  color: rgb(51, 51, 51);
+  font-weight: 400;
 }

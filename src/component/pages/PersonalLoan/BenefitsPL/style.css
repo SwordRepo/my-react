@@ -1,0 +1,34 @@
+.backgroundContainer {
+  background-color: #f1f7e9;
+}
+.benefitsHead {
+  font-size: 50px;
+  line-height: 60px;
+  color: #005da5;
+  font-weight: 700;
+}
+.padded-container {
+  padding: 50px 0;
+}
+.img-container {
+  max-width: 100%;
+}
+.paddedContainer {
+  padding-bottom: 50px;
+}
+.img-left-content {
+  margin-left: 16px;
+}
+.img-right-content {
+  margin-right: 16px;
+}
+.imgHead {
+  color: #005da5;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.imgContent {
+  font-size: 20px;
+  color: black;
+}

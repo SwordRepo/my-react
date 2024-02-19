@@ -1,0 +1,76 @@
+.container-bg {
+  background-image: url("./Canadians_Banner_image.avif");
+  color: white;
+}
+.row-border {
+  border-right: 1px solid white;
+  padding: 0 20px;
+}
+.heading,
+.valueDta {
+  font-size: 50px;
+  font-weight: 700;
+  padding-right: 24%;
+}
+.heading {
+  padding-right: 24%;
+}
+/* .valueDta {
+  padding: 0 10px;
+} */
+.content-column {
+  padding-top: 75px;
+}
+.subHead,
+.valueContent {
+  font-weight: 400;
+
+  font-size: 26px;
+}
+.subHead {
+  margin: 20px 16% 40px 0;
+}
+/* .data-rounded {
+  background-color: #118acb;
+  width: 56%;
+  border-radius: 64%;
+  font-size: 50px;
+} */
+.data1 {
+  font-size: 90px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.data2 {
+  font-size: 20px;
+  padding-top: -9px;
+  position: relative;
+
+  bottom: 20px;
+}
+
+.data-rounded,
+.data-rounded-one,
+.data-rounded-two {
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 232px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+  padding-bottom: 7px;
+  width: 232px;
+}
+.data-rounded-one {
+  background-color: #118acb;
+  position: relative;
+  top: 10%;
+}
+.data-rounded-two {
+  background-color: #00b1b1;
+  position: relative;
+  left: 28%;
+  bottom: 40px;
+}

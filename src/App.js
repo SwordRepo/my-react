@@ -1,12 +1,15 @@
 import Banner from "./component/Banner";
 import FeaturedCard from "./component/FeaturedCard";
 import ReviewCards from "./component/ReviewCards";
+import "./App.css";
 import { easyfinancialData } from "./component/Data/data";
 import Navbar from "./component/NavBar";
 import BasicExample from "./component/NavBar/BasicExample";
 import Footer from "./component/Footer";
 import Accordian from "./component/FooterAccordian/Accordian";
-import LoanDetails from "./component/pages/PersonalLoan/LoanDetails";
+import LoanDetails from "./component/pages/PersonalLoan/PersonalLoan/LoanDetails";
+import Benefits from "./component/pages/PersonalLoan/BenefitsPL/Benefits";
+import Value from "./component/pages/PersonalLoan/Value";
 function App() {
   return (
     <div className="App">
@@ -16,6 +19,8 @@ function App() {
       <FeaturedCard data={easyfinancialData.featuredCard} />
       <ReviewCards data={easyfinancialData.review} /> */}
       <LoanDetails data={easyfinancialData.personalLoan} />
+      <Benefits data={easyfinancialData.benefitsPL} />
+      <Value data={easyfinancialData.value} />
       <Footer data={easyfinancialData.footer} className="sticky-bottom" />
       <Accordian data={easyfinancialData.footer} />
     </div>

@@ -4,6 +4,14 @@ import instagram from "./images/instagram.png";
 import goeasy from "./images/goeasy.jpg";
 import playStore from "./images/app.png";
 import bannerBG from "./images/bg.webp";
+import Bill from "./images/BillPayments.avif";
+import Debt from "./images/DebtConsolidation.avif";
+import Home from "./images/HomeAndAuto.avif";
+import img1 from "./images/1.avif";
+import img2 from "./images/2.avif";
+import img3 from "./images/3.avif";
+import img4 from "./images/4.avif";
+import img5 from "./images/5.avif";
 
 import googlePlay from "./images/googlePlay.png";
 export const easyfinancialData = {
@@ -235,30 +243,88 @@ export const easyfinancialData = {
       {
         loanName: "Loan details",
         content: "Not sure which loan to apply for?",
-        linkContent:
-          "See all of our loans to find the one that’s right for you.",
+        link: "See all of our loans",
+        linkContent: " to find the one that’s right for you.",
         terms: [
           { term: "Amounts from", value: "$500 - $20,000" },
           { term: "Rates starting from", value: "29.99%" },
           { term: "Terms from", value: "9-84 months" },
-
-          // { value: "$500 - $20,000" },
-          // { value: "29.99%" },
-          // { value: "9-84 months" },
         ],
       },
       {
         name: "Most commonly used for:",
-        logos: {
-          logo: "",
-          logo: "",
-          logo: "",
-        },
-        contents: {
-          content: "Bill Payments",
-          content: "Debt Consolidation",
-          content: "Home & Auto Repairs",
-        },
+        logos: [{ logo: Bill }, { logo: Debt }, { logo: Home }],
+        contents: [
+          "Bill Payments",
+          "Debt Consolidation",
+          "Home & Auto Repairs",
+        ],
+      },
+    ],
+  },
+  benefitsPL: {
+    name: "Benefits of a Personal Loan",
+    block: [
+      {
+        img: img1,
+        imgHead: "Fast access to money",
+        imgContent:
+          "With Interac® e-Transfer, get your money within hours after getting approved.",
+      },
+
+      {
+        img: img2,
+        imgHead: "Flexible loan options",
+        imgContent:
+          "We offer personalized rates and payment terms to help you find a solution that fits your budget. If you’re able, you can pay off your loan at any time with no penalty and save the interest. Plus, you can get a 2% rate reduction with a co-applicant.",
+      },
+      {
+        img: img3,
+        imgHead: "Apply without affecting your credit score",
+        imgContent:
+          "Apply in minutes to find out how much you could qualify for. There is no commitment and it won’t affect your credit score.",
+      },
+      {
+        img: img4,
+        imgHead: "Rebuild your credit",
+        imgContent:
+          "With every on-time payment, you are one step closer to rebuilding your credit and graduating to bank rates.",
+      },
+      {
+        img: img5,
+        imgHead: "No credit history needed",
+        imgContent:
+          "If you’re a student or new to Canada, we can help get you approved even with no credit history.",
+      },
+    ],
+    btn: "APPLY NOW",
+  },
+  value: {
+    head: "Putting Canadians on a path to a better financial future",
+    subHead:
+      "When banks aren’t an option, we can help you get approved for the loan you need today.",
+    values: [
+      {
+        valueDta: "400+",
+        valueContent: "locations in Canada",
+      },
+      {
+        valueDta: "779K",
+        valueContent: "customers served",
+      },
+      {
+        valueDta: "94%",
+        valueContent: "satisfaction rate",
+      },
+    ],
+    data: [
+      {
+        data1: "60%",
+        data2: "of customers improve their credit score",
+      },
+      {
+        data1: "1in3",
+        data2: "customers graduate to prime rates",
       },
     ],
   },
