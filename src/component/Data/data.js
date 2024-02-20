@@ -248,7 +248,7 @@ export const easyfinancialData = {
         terms: [
           { term: "Amounts from", value: "$500 - $20,000" },
           { term: "Rates starting from", value: "29.99%" },
-          { term: "Terms from", value: "9-84 months" },
+          { term: "Terms from", value: "9 - 84 months" },
         ],
       },
       {

@@ -1,30 +1,42 @@
 import React, { useState } from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
-function BasicExample(props) {
+export default function BasicExample(props) {
   const { menus, btn, logo } = props.data;
   const [activeMenu, setActiveMenu] = useState(null);
+  const [isSubMenuHovered, setIsSubMenuHovered] = useState(false);
 
   const handleMenuHover = (menu) => {
     setActiveMenu(menu);
   };
-  const handleMenuClick = (menu) => {
-    setActiveMenu((prevMenu) => (prevMenu === menu ? null : menu));
+
+  const handleSubMenuHover = () => {
+    setIsSubMenuHovered(true);
   };
+
+  const handleSubMenuLeave = () => {
+    setIsSubMenuHovered(false);
+  };
+
+  const handleMenuClick = (menu) => {
+    setActiveMenu(activeMenu === menu ? null : menu);
+  };
+
   return (
     <Navbar expand="lg" className="bg-white">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Brand href="#home">
-          <img src={logo} className="nav-logo" />
+          <img src={logo} className="nav-logo" alt="Logo" />
         </Navbar.Brand>
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto align-items-xl-center">
+          <Nav className="me-auto align-items-baseline">
             <Nav.Link href="#link">
-              <ul className="menu-list">
+              <ul
+                className="menu-list"
+                onMouseLeave={() => setActiveMenu(null)}
+              >
                 {menus.map((menu) => (
                   <li
                     key={menu.menu}
@@ -33,9 +45,13 @@ function BasicExample(props) {
                     onClick={() => handleMenuClick(menu.menu)} // Toggle submenu on click
                   >
                     {menu.menu}
-                    {/* Render submenu if the current menu is active */}
+
                     {activeMenu === menu.menu && (
-                      <ul className="sub-menu fw-normal ">
+                      <ul
+                        className="sub-menu fw-normal"
+                        onMouseEnter={handleSubMenuHover}
+                        onMouseLeave={handleSubMenuLeave}
+                      >
                         {menu.subMenus.map((subMenu) => (
                           <li className="sub-menu-item" key={subMenu.submenu}>
                             {subMenu.submenu}
@@ -47,7 +63,7 @@ function BasicExample(props) {
                 ))}
               </ul>
             </Nav.Link>
-            <div className="d-flex justify-content-lg-end text-dec justify-content-sm-between justify-content-md-between  ">
+            <div className="d-flex justify-content-lg-end text-dec justify-content-sm-between justify-content-md-between">
               <a href="#" className="btn btn-primary fw-bold my-4 btn-nav">
                 {btn}
               </a>
@@ -58,5 +74,3 @@ function BasicExample(props) {
     </Navbar>
   );
 }
-
-export default BasicExample;

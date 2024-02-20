@@ -26,7 +26,7 @@ export default function value(props) {
           <div className="col-6">
             {data.map((d, index) => {
               const uniqueClassName =
-                index === 0 ? "data-rounded-one" : "data-rounded-two"; // Conditionally assign class name
+                index === 0 ? "data-rounded-one" : "data-rounded-two";
 
               return (
                 <div

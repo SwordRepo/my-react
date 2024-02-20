@@ -19,7 +19,7 @@ export default function LoanDetails(props) {
                       <h3 className="col-6 term-value mb-2 text-end p-0">
                         {term.value}
                       </h3>
-                      <hr className="term-line m-0" />
+                      <hr className="term-line " />
                     </div>
                   ))}
                 <p className="loan-content p-0">
