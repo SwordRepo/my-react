@@ -12,6 +12,7 @@ import img2 from "./images/2.avif";
 import img3 from "./images/3.avif";
 import img4 from "./images/4.avif";
 import img5 from "./images/5.avif";
+import personalLoan from "../pages/LoanPage";
 
 import googlePlay from "./images/googlePlay.png";
 export const easyfinancialData = {
@@ -23,27 +24,35 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "Personal Loans",
+            routeComponent: personalLoan,
           },
           {
             submenu: "Home Equity Loans",
+            routeComponent: "",
           },
           {
             submenu: "Auto Loans",
+            routeComponent: "",
           },
           {
             submenu: "Point-of-Sale Financing",
+            routeComponent: "",
           },
           {
             submenu: "Value-Added Services",
+            routeComponent: "",
           },
           {
             submenu: "Small Business Financing",
+            routeComponent: "",
           },
           {
             submenu: "Bad Credit Loans",
+            routeComponent: "",
           },
           {
             submenu: "Installment Loans",
+            routeComponent: "",
           },
         ],
       },
@@ -52,9 +61,11 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "Articles",
+            routeComponent: "",
           },
           {
             submenu: "Tools And Calculators",
+            routeComponent: "",
           },
         ],
       },
@@ -63,12 +74,15 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "The easyfinancial Difference",
+            routeComponent: "",
           },
           {
             submenu: "In the Comunity",
+            routeComponent: "",
           },
           {
             submenu: "Careers",
+            routeComponent: "",
           },
         ],
       },
@@ -77,12 +91,15 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "FAQs",
+            routeComponent: "",
           },
           {
             submenu: "Contact Us",
+            routeComponent: "",
           },
           {
             submenu: "COVID-19 Updates",
+            routeComponent: "",
           },
         ],
       },
@@ -245,6 +262,7 @@ export const easyfinancialData = {
         content: "Not sure which loan to apply for?",
         link: "See all of our loans",
         linkContent: " to find the one that’s right for you.",
+        link1: "See all of our loans to find the one that’s right for you.",
         terms: [
           { term: "Amounts from", value: "$500 - $20,000" },
           { term: "Rates starting from", value: "29.99%" },
@@ -328,33 +346,4 @@ export const easyfinancialData = {
       },
     ],
   },
-  // menuItemsData.js
-  menuItemsData: [
-    {
-      title: "Home",
-      url: "/",
-    },
-    {
-      title: "Services",
-      url: "/services",
-      submenu: [
-        {
-          title: "Web Design",
-          url: "/web-design",
-        },
-        {
-          title: "Web Development",
-          url: "/web-dev",
-        },
-        {
-          title: "SEO",
-          url: "/seo",
-        },
-      ],
-    },
-    {
-      title: "About",
-      url: "/about",
-    },
-  ],
 };

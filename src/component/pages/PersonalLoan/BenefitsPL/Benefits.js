@@ -12,21 +12,21 @@ export default function Benefits(props) {
             <div className="col-12 row paddedContainer" key={index}>
               {index % 2 === 0 ? (
                 <>
-                  <div className="col-lg-5 col-md-5 col-sm-12">
+                  <div className="col-lg-6 col-md-6 col-sm-12">
                     <img src={b.img} className="img-container" />
                   </div>
-                  <div className="col-lg-5 col-md-5 col-sm-12 img-left-content">
+                  <div className="col-lg-6 col-md-6 col-sm-12 ">
                     <h3 className="imgHead">{b.imgHead}</h3>
                     <p className="imgContent">{b.imgContent}</p>
                   </div>
                 </>
               ) : (
                 <>
-                  <div className="col-lg-5 col-md-5 col-sm-12 img-right-content">
+                  <div className="col-lg-6 col-md-6 col-sm-12 ">
                     <h3 className="imgHead">{b.imgHead}</h3>
                     <p className="imgContent">{b.imgContent}</p>
                   </div>
-                  <div className="col-lg-5 col-md-5 col-sm-12 ">
+                  <div className="col-lg-6 col-md-6 col-sm-12 ">
                     <img src={b.img} className="img-container" />
                   </div>
                 </>

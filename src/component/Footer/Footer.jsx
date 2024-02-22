@@ -24,9 +24,11 @@ export default function Footer(props) {
               <img className="col-3 col-sm-6" src={instagramLogo} alt="" />
             </div>
             <div className="row pt-3">
-              <p className="col-6 easyContent col-sm-12">{content}</p>
+              <p className="col-lg-6 col-md-6 easyContent col-sm-12">
+                {content}
+              </p>
               <img
-                className="col-6 goeasyLogo col-sm-12"
+                className="col-lg-6 col-md-6 goeasyLogo col-sm-12"
                 src={goeasyLogo}
                 alt=""
               />

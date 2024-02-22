@@ -6,7 +6,7 @@ export default function value(props) {
     <div className="container-fluid container-bg">
       <div className="container">
         <div className="row">
-          <div className="col-6 content-column">
+          <div className="col-lg-6 col-md-6 col-sm-12 content-column">
             <h1 className="heading">{head}</h1>
             <h3 className="subHead">{subHead}</h3>
             <div className="row mb-5">
@@ -23,7 +23,7 @@ export default function value(props) {
               ))}
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-md-6 col-sm-12">
             {data.map((d, index) => {
               const uniqueClassName =
                 index === 0 ? "data-rounded-one" : "data-rounded-two";
