@@ -6,7 +6,8 @@
   border-right: 1px solid #005da5;
 }
 .left-container {
-  padding-right: 120px;
+  padding-right: 120px !important;
+  margin-bottom: 60px;
 }
 .loan-head {
   font-size: 50px;

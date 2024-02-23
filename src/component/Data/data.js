@@ -13,6 +13,10 @@ import img3 from "./images/3.avif";
 import img4 from "./images/4.avif";
 import img5 from "./images/5.avif";
 import personalLoan from "../pages/LoanPage";
+import banner from "./images/ban1.avif";
+import Feature1 from "./images/f1.avif";
+import Feature2 from "./images/f2.avif";
+import Feature3 from "./images/img.jpg";
 
 import googlePlay from "./images/googlePlay.png";
 export const easyfinancialData = {
@@ -107,7 +111,7 @@ export const easyfinancialData = {
     btn: "APPLY NOW",
   },
   banner: {
-    img: bannerBG,
+    img: banner,
     bannerHeader: "Providing Everyday Canadians a Path to",
     bannerHeaderline: "a Better Tomorrow, Today",
     bannerSubHeader: "Loans up to $100,000",
@@ -118,21 +122,21 @@ export const easyfinancialData = {
     name: "Featured",
     card: [
       {
-        img: "",
+        img: Feature1,
         cardHead: "Get a 2% lower rate with a co-applicant",
         cardBody:
           "Lower your rate and get approved for more money when you borrow together.",
         cardBtn: "APPLY NOW",
       },
       {
-        img: "",
+        img: Feature3,
         cardHead: "Refer a friend and get $100",
         cardBody:
           "We’re here for you. Be there for them. Get $100 when you refer a friend. Visit your local branch for more details.",
         cardBtn: "FIND A BRANCH",
       },
       {
-        img: "",
+        img: Feature2,
         cardHead: "NEW! Introducing the goeasy Connect Mobile App",
         cardBody:
           "Get real-time access to your account details, payment information, and pre-approved offers so you know how much you can borrow and at what rates.",

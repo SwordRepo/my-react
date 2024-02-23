@@ -7,7 +7,7 @@ export default function Card(props) {
   return (
     <div class="col-sm-12  col-lg-4 d-lg-flex pb-3">
       <div class="card">
-        <img src={img} class="card-img-top" alt="..." />
+        <img src={props.data.img} class="card-img-top" alt="..." />
         <div class="card-body text-center">
           <h5 class="card-title mb-4 fw-bold fs-3 feature-card-text">
             {props.data.cardHead}

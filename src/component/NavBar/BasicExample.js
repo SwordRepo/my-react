@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function BasicExample(props) {
   const { menus, btn, logo } = props.data;
@@ -26,7 +28,7 @@ export default function BasicExample(props) {
     <Navbar expand="lg" className="bg-white">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to="/">
           <img src={logo} className="nav-logo" alt="Logo" />
         </Navbar.Brand>
 
@@ -45,18 +47,27 @@ export default function BasicExample(props) {
                     onClick={() => handleMenuClick(menu.menu)} // Toggle submenu on click
                   >
                     {menu.menu}
-
                     {activeMenu === menu.menu && (
                       <ul
                         className="sub-menu fw-normal"
                         onMouseEnter={handleSubMenuHover}
                         onMouseLeave={handleSubMenuLeave}
                       >
-                        {menu.subMenus.map((subMenu) => (
-                          <li className="sub-menu-item" key={subMenu.submenu}>
-                            {subMenu.submenu}
-                          </li>
-                        ))}
+                        {menu.subMenus.map((subMenu) => {
+                          // Construct the route path based on the submenu name
+                          const routePath = `/${menu.menu
+                            .toLowerCase()
+                            .replace(" ", "-")}/${subMenu.submenu
+                            .toLowerCase()
+                            .replace(" ", "-")}`;
+
+                          return (
+                            <li className="sub-menu-item" key={subMenu.submenu}>
+                              {/* Use Link for navigation */}
+                              {subMenu.submenu}
+                            </li>
+                          );
+                        })}
                       </ul>
                     )}
                   </li>

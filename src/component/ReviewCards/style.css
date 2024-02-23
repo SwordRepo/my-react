@@ -11,9 +11,9 @@
   margin-right: 8px;
 }
 
-/* .image-women {
-  max-width: 100%;
-} */
+.image-women-center {
+  text-align: center;
+}
 
 button.rec-dot {
   display: none;

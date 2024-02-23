@@ -15,7 +15,7 @@ export default function Banner(props) {
   return (
     <div className="container-fluid img-container p-0">
       {/* Image taking full width */}
-      <img src={img1} className="img-banner" alt="Logo" />
+      <img src={img} className="img-banner" alt="Logo" />
 
       <div className="container">
         <div className="hero-banner">

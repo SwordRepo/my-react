@@ -19,7 +19,7 @@
 }
 .goeasyLogo {
   height: 64px;
-  width: fit-content;
+  width: fit-content !important;
 }
 .easyContent {
   color: #005da5;
@@ -32,8 +32,24 @@
   left: 0;
   bottom: 0;
 }
-@media only screen and (max-width: 576px) {
+.li-menu,
+.li-menu1 {
+  list-style: none;
+  color: #005da5;
+  font-size: 14px;
+  font-weight: 600;
+}
+.li-menu1 {
+  color: #555659;
+}
+@media only screen and (max-width: 575px) {
   .footerLink {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .accordian-componnet {
     display: none;
   }
 }
