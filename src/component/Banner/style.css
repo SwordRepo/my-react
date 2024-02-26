@@ -70,6 +70,10 @@
     padding: 4px;
     width: 45%;
   }
+  .btn-btn {
+    font-size: 10px;
+    padding: 8px;
+  }
 }
 
 /* Small Devices (landscape phones) */

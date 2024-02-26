@@ -1,8 +1,7 @@
 import React from "react";
-import img1 from "./images/ban5.webp";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Button from "../button/Button";
 export default function Banner(props) {
   const {
     img,
@@ -25,13 +24,9 @@ export default function Banner(props) {
               <strong className="bannerHeaderline">{bannerHeaderline}</strong>
             </h1>
           </div>
-
           <p className=" text-primary banner-sub-header">{bannerSubHeader}</p>
           <div className="btn-banner">
-            <a
-              href="#"
-              className="btn btn-primary  banner-btn fw-bold my-lg-4 "
-            >
+            <a href="#" className="btn  banner-btn fw-bold my-lg-4  btn-btn">
               {bannerBtn}
             </a>
           </div>

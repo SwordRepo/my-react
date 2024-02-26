@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navbar.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { Spin as Hamburger } from "hamburger-react";
 
 export default function BasicExample(props) {
   const { menus, btn, logo } = props.data;
   const [activeMenu, setActiveMenu] = useState(null);
   const [isSubMenuHovered, setIsSubMenuHovered] = useState(false);
-
+  const [isOpen, setOpen] = useState(false);
   const handleMenuHover = (menu) => {
     setActiveMenu(menu);
   };
@@ -27,10 +29,27 @@ export default function BasicExample(props) {
   return (
     <Navbar expand="lg" className="bg-white">
       <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Brand as={Link} to="/">
-          <img src={logo} className="nav-logo" alt="Logo" />
-        </Navbar.Brand>
+        <div>
+          <Navbar.Toggle
+            icon={
+              <Hamburger
+                toggled={isOpen}
+                toggle={setOpen}
+                style={{
+                  backgroundColor: "green",
+                  color: "blue",
+                  border: "none",
+                  textDecoration: "none",
+                  marginTop: "2px",
+                }}
+              />
+            }
+          />
+
+          <Navbar.Brand as={Link} to="/">
+            <img src={logo} className="nav-logo" alt="Logo" />
+          </Navbar.Brand>
+        </div>
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto align-items-baseline">
@@ -77,13 +96,13 @@ export default function BasicExample(props) {
                 ))}
               </ul>
             </Nav.Link>
-            <div className="d-flex justify-content-lg-end text-dec justify-content-sm-between justify-content-md-between">
-              <a href="#" className="btn btn-primary fw-bold my-4 btn-nav">
-                {btn}
-              </a>
-            </div>
           </Nav>
         </Navbar.Collapse>
+        <div className="d-flex justify-content-lg-end  justify-content-sm-between justify-content-md-between">
+          <a href="#" className="btn btn-primary fw-bold my-4 btn-nav  btn-btn">
+            {btn}
+          </a>
+        </div>
       </Container>
     </Navbar>
   );

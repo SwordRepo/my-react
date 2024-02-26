@@ -1,5 +1,4 @@
 import React from "react";
-
 import { easyfinancialData } from "../../Data/data";
 import BasicExample from "../../NavBar/BasicExample";
 import Footer from "../../Footer/Footer";

@@ -12,7 +12,7 @@ export default function value(props) {
             <div className="row mb-5">
               {values.map((v, index) => (
                 <div
-                  className={`col-3  ${
+                  className={`col-4  ${
                     index !== values.length - 1 ? "row-border" : ""
                   }`}
                   key={index}
