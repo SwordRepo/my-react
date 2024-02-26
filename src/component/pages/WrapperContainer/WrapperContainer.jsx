@@ -3,7 +3,6 @@ import React from "react";
 import { easyfinancialData } from "../../Data/data";
 import BasicExample from "../../NavBar/BasicExample";
 import Footer from "../../Footer/Footer";
-import Accordian from "../../FooterAccordian/Accordian";
 
 export default function WrapperContainer({ children }) {
   return (
