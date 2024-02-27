@@ -13,7 +13,7 @@ export default function Benefits(props) {
         <div className="row">
           {block.map((b, index) => (
             <div className="col-12 row paddedContainer" key={index}>
-              {isSmallScreen ? (
+              {/* {isSmallScreen ? (
                 <>
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <img src={b.img} className="img-container" />
@@ -23,31 +23,31 @@ export default function Benefits(props) {
                     <p className="imgContent">{b.imgContent}</p>
                   </div>
                 </>
-              ) : (
-                <>
-                  {index % 2 === 0 ? (
-                    <>
-                      <div className="col-lg-6 col-md-6 col-sm-12">
-                        <img src={b.img} className="img-container" />
-                      </div>
-                      <div className="col-lg-6 col-md-6 col-sm-12">
-                        <h3 className="imgHead">{b.imgHead}</h3>
-                        <p className="imgContent">{b.imgContent}</p>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="col-lg-6 col-md-6 col-sm-12">
-                        <h3 className="imgHead">{b.imgHead}</h3>
-                        <p className="imgContent">{b.imgContent}</p>
-                      </div>
-                      <div className="col-lg-6 col-md-6 col-sm-12">
-                        <img src={b.img} className="img-container" />
-                      </div>
-                    </>
-                  )}
-                </>
-              )}
+              ) : ( */}
+              <>
+                {index % 2 === 0 ? (
+                  <>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <img src={b.img} className="img-container" />
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <h3 className="imgHead">{b.imgHead}</h3>
+                      <p className="imgContent">{b.imgContent}</p>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <h3 className="imgHead">{b.imgHead}</h3>
+                      <p className="imgContent">{b.imgContent}</p>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <img src={b.img} className="img-container" />
+                    </div>
+                  </>
+                )}
+              </>
+              {/* )} */}
             </div>
           ))}
         </div>

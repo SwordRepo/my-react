@@ -1,5 +1,5 @@
 .button {
-  background-color: #005da5;
+  background-color: #005da5 !important;
   padding: 10px 15px;
   color: #fff; /* Button text color */
 }

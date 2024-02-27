@@ -9,12 +9,12 @@ import "./style.css";
 import Card from "./Card";
 export default function ReviewCards(props) {
   console.log(props, "hi");
-  const { heading, img, reviews } = props.data;
+  const { reviews } = props.data;
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 1 },
+    { width: 250, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
     { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 3 },
   ];
 
   const cardCount = 5;
@@ -24,7 +24,7 @@ export default function ReviewCards(props) {
       className={`custom-${type}-icon`}
       style={{
         fontSize: "2rem",
-        marginTop: "8rem",
+        marginTop: "13rem",
         color: "#005DA5",
         fontWeight: "600",
       }}
@@ -37,7 +37,7 @@ export default function ReviewCards(props) {
     <div>
       <div className="container-fluid review-container">
         <div className=" container">
-          <div className=" row">
+          <div className=" row review-row">
             <div className="col-sm-12 col-md-3 col-lg-3  ">
               <img src={woman} alt="" className="image-women" />
             </div>

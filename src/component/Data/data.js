@@ -3,7 +3,6 @@ import facebook from "./images/facebook.png";
 import instagram from "./images/instagram.png";
 import goeasy from "./images/goeasy.jpg";
 import playStore from "./images/app.png";
-import bannerBG from "./images/bg.webp";
 import Bill from "./images/BillPayments.avif";
 import Debt from "./images/DebtConsolidation.avif";
 import Home from "./images/HomeAndAuto.avif";
@@ -12,12 +11,10 @@ import img2 from "./images/2.avif";
 import img3 from "./images/3.avif";
 import img4 from "./images/4.avif";
 import img5 from "./images/5.avif";
-import personalLoan from "../pages/LoanPage";
 import banner from "./images/ban1.avif";
 import Feature1 from "./images/f1.avif";
 import Feature2 from "./images/f2.avif";
-import Feature3 from "./images/img.jpg";
-
+import Feature3 from "./images/f3.avif";
 import googlePlay from "./images/googlePlay.png";
 export const easyfinancialData = {
   navBar: {
@@ -28,35 +25,27 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "Personal Loans",
-            routeComponent: personalLoan,
           },
           {
             submenu: "Home Equity Loans",
-            routeComponent: "",
           },
           {
             submenu: "Auto Loans",
-            routeComponent: "",
           },
           {
             submenu: "Point-of-Sale Financing",
-            routeComponent: "",
           },
           {
             submenu: "Value-Added Services",
-            routeComponent: "",
           },
           {
             submenu: "Small Business Financing",
-            routeComponent: "",
           },
           {
             submenu: "Bad Credit Loans",
-            routeComponent: "",
           },
           {
             submenu: "Installment Loans",
-            routeComponent: "",
           },
         ],
       },
@@ -65,11 +54,9 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "Articles",
-            routeComponent: "",
           },
           {
             submenu: "Tools And Calculators",
-            routeComponent: "",
           },
         ],
       },
@@ -78,15 +65,12 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "The easyfinancial Difference",
-            routeComponent: "",
           },
           {
             submenu: "In the Comunity",
-            routeComponent: "",
           },
           {
             submenu: "Careers",
-            routeComponent: "",
           },
         ],
       },
@@ -95,15 +79,12 @@ export const easyfinancialData = {
         subMenus: [
           {
             submenu: "FAQs",
-            routeComponent: "",
           },
           {
             submenu: "Contact Us",
-            routeComponent: "",
           },
           {
             submenu: "COVID-19 Updates",
-            routeComponent: "",
           },
         ],
       },
@@ -150,25 +131,25 @@ export const easyfinancialData = {
     img: "",
     reviews: [
       {
-        name: "test1",
+        name: "Patricia Cowley",
         rating: 3,
         description:
           "I found that the people are very helpful and understanding, I would definitely recommend them. ",
       },
       {
-        name: "test2",
+        name: "Steve",
         rating: 4,
         description:
           "I would recommend dealing with them to help you get back on stable financial ground. Thanks for all your help.",
       },
       {
-        name: "test3",
+        name: "Brooke",
         rating: 2,
         description:
-          "easyfinancial makes building credit back up literally so easy. Joel was extremely helpful and made it all so simple and straight forward to set up my loan, very happy! Thanks again!",
+          "Easyfinancial makes building credit back up literally so easy. Joel was extremely helpful and made it all so simple and straight forward to set up my loan, very happy! Thanks again!",
       },
       {
-        name: "test4",
+        name: "Tanya Morgan",
         rating: 5,
         description:
           "Jolyn the financial advisor here at Grande Praire is very helpful. She knows what she is doing. Witty, friendly and approachable person. Keep up the good work!",

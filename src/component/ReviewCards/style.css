@@ -1,14 +1,19 @@
 .review-container {
   background-color: hsla(82, 45%, 85%, 0.5);
 }
-
+.rating-star {
+  margin: 12px 0;
+}
 .review-card-head {
-  min-height: 300px;
+  min-height: 380px;
 }
 .image-rating {
   height: 24px;
   width: 24px;
   margin-right: 8px;
+}
+.card-review {
+  padding: 55px 35px 70px;
 }
 
 .image-women-center {
@@ -36,6 +41,9 @@ button.rec-dot {
 
 .card-body-text {
   color: #333;
+}
+.review-row {
+  padding-top: 96px;
 }
 @media only screen and (min-width: 992px) {
   .carousal-card {

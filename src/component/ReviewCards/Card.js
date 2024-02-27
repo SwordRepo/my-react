@@ -7,10 +7,10 @@ export default function Card(props) {
   // const cardCount = 5;
   return (
     // <div class="col-4 d-flex pb-3">
-    <div class="card mx-2 mt-5 review-card-head ">
+    <div class="card mx-2  review-card-head ">
       <div class="card-body card-review ">
-        <p class="card-title mb-4 fw-bold ">{props.data.name}</p>
-        <div className="rating-star d-flex ">
+        <p class="card-title  fw-bold ">{props.data.name}</p>
+        <div className="rating-star d-flex  ">
           {Array.from({ length: props.data.rating }, (_, index) => (
             <img src={img} alt="" className="image-rating" />
           ))}

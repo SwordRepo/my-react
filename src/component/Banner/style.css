@@ -34,8 +34,8 @@
 .banner-btn {
   background-color: #005da5 !important;
   padding: 10px 15px;
-  color: #fff; /* Button text color */
-  width: 40%;
+  color: #fff !important; /* Button text color */
+  width: 30%;
 }
 .hero-banner {
   position: absolute;
