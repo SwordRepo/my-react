@@ -17,14 +17,13 @@ export default function ReviewCards(props) {
     { width: 768, itemsToShow: 3 },
   ];
 
-  const cardCount = 5;
   const renderCustomArrow = ({ type, onClick }) => (
     <div
       onClick={onClick}
       className={`custom-${type}-icon`}
       style={{
         fontSize: "2rem",
-        marginTop: "13rem",
+        marginTop: "11rem",
         color: "#005DA5",
         fontWeight: "600",
       }}

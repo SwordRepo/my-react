@@ -94,7 +94,7 @@ export const easyfinancialData = {
   banner: {
     img: banner,
     bannerHeader: "Providing Everyday Canadians a Path to",
-    bannerHeaderline: "a Better Tomorrow, Today",
+    bannerHeaderline: "  a Better Tomorrow, Today",
     bannerSubHeader: "Loans up to $100,000",
     bannerBtn: "GET A LOAN",
     bannerText: "Applying won’t affect your credit score",

@@ -3,6 +3,7 @@ import { easyfinancialData } from "../../Data/data";
 import Banner from "../../Banner";
 import FeaturedCard from "../../FeaturedCard";
 import ReviewCards from "../../ReviewCards";
+import Cards from "../../TestCard/Cards";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner data={easyfinancialData.banner} />
       <FeaturedCard data={easyfinancialData.featuredCard} />
       <ReviewCards data={easyfinancialData.review} />
+      <Cards data={easyfinancialData.featuredCard} />
     </div>
   );
 }

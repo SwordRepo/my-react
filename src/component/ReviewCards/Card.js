@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function Card(props) {
   console.log(props, "data");
-  // const cardCount = 5;
+
   return (
     // <div class="col-4 d-flex pb-3">
     <div class="card mx-2  review-card-head ">

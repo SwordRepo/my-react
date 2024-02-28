@@ -1,0 +1,26 @@
+.featured-card {
+  background-color: rgb(29, 138, 203);
+}
+.feature-card-text {
+  color: #005da5;
+}
+
+.footer {
+  position: relative;
+  transition: transform 0.3s ease; /* Add transition for smoother animation */
+}
+
+.footer.hovered {
+  transform: translateY(-389%);
+}
+
+.extra-content {
+  position: absolute;
+  top: 100%; /* Position the extra content below the footer */
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for better visibility */
+}
