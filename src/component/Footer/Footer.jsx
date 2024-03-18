@@ -12,7 +12,7 @@ export default function Footer(props) {
     googlePlay,
     appleLogo,
   } = props.data;
-  console.log(props, "props");
+ 
   // Specify the menus you want to include in the Accordion
   const menusToInclude = ["LOANS", "ABOUT US", "HELP"];
 

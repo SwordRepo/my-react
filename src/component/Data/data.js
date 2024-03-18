@@ -123,6 +123,7 @@ export const easyfinancialData = {
           "Get real-time access to your account details, payment information, and pre-approved offers so you know how much you can borrow and at what rates.",
         cardBtn: "LEARN MORE",
       },
+      
     ],
   },
 
